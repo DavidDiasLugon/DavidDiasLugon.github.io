@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I'm a student of computer science at Federal Fluminense University. I love coding with Python, that is the only language I know at the moment...
+I'm a student of computer science at Federal Fluminense University (UFF). I'm a beginner in Python and C.
 
 ### Technologies & Fields 
-- Python 
-- LaTex
+- Python
+- C 
+- $`\LaTeX`$
