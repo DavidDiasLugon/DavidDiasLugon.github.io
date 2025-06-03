@@ -27,7 +27,7 @@ I am interested in computer vision, computer graphics, visualization and machine
 
 # Collection to display on home
 homeCollectionTitle = "Posts"
-homeCollection = "/posts"
+homeCollection = "posts"
 
 # Lists parameters
 paginationSize = 100
@@ -76,3 +76,8 @@ category = "General"
 categoryid = "categoryId"
 mapping = "pathname"
 theme = "preferred_color_scheme"
+
+# Caches 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
