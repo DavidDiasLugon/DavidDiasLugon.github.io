@@ -3,9 +3,6 @@ languageCode = "en-us"
 title = "David's Blog"
 theme = "typo"
 
-# Google analytics code
-googleAnalytics = "G-xxxxxxxxx"
-
 [taxonomies]
 tag = "tags"
 
@@ -15,7 +12,7 @@ description = "A personal blog"
 
 # Appearance settings
 theme = "auto"
-colorPalette = "base16-ocean"
+colorPalette = "gruvbox"
 hideHeader = false
 
 # Intro on main page, content is markdown
