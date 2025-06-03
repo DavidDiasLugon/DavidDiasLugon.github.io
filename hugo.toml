@@ -12,7 +12,7 @@ description = "A personal blog"
 
 # Appearance settings
 theme = "auto"
-colorPalette = "gruvbox"
+colorPalette = "gruvebox"
 hideHeader = false
 
 # Intro on main page, content is markdown
@@ -62,7 +62,7 @@ url = "/about"
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
-style = "tokyonight-night"
+style = "gruvbox-light"
 
 # Giscus comments
 [params.giscus]
