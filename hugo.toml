@@ -1,0 +1,78 @@
+baseURL = "https://daviddiaslugon.github.io/"
+languageCode = "en-us"
+title = "David's Blog"
+theme = "typo"
+
+# Google analytics code
+googleAnalytics = "G-xxxxxxxxx"
+
+[taxonomies]
+tag = "tags"
+
+[params]
+# Meta description
+description = "A personal blog"
+
+# Appearance settings
+theme = "auto"
+colorPalette = "base16-ocean"
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = "Hi!"
+homeIntroContent = """
+I am just a Computer Science undergrad, interested in many things at the same time. 
+I am interested in computer vision, computer graphics, visualization and machine learning (and much more to be honest).  
+"""
+
+# Collection to display on home
+homeCollectionTitle = "Posts"
+homeCollection = "/posts"
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = "2 Jan 2006"
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/david-dias-lugon/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/DavidDiasLugon"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = "tokyonight-night"
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
