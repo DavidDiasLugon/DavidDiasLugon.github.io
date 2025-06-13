@@ -46,6 +46,10 @@ url = "https://www.linkedin.com/in/david-dias-lugon/"
 name = "github"
 url = "https://github.com/DavidDiasLugon"
 
+[[params.social]]
+name = "letterboxd"
+url = "https://letterboxd.com/DavidDias"
+
 # Main menu pages
 [[params.menu]]
 name = "home"
